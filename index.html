@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Introduction to Python - L3"}' />
+		<title>Introduction to Python - L3</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal .monospace-font h1,
+.reveal .monospace-font h2,
+.reveal .monospace-font h3 {
+  font-family: monospace;
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-helvetica theme-color-black-mint">
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="introduction-to-python-l2/5575a831fd35ef978963ce97fc5c4737" data-background-opacity="0.2" data-background-transition="fade" data-id="250c8f5063c8be10c0164afd81052765" data-transition="fade"><div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 192px; height: auto;" data-block-id="c538a75ae95b1376efb84fca8ffe8004"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg); filter: drop-shadow(rgba(28, 235, 123, 0.7) 0px 0px 6px);"><div class="sl-block-content monospace-font" data-placeholder-tag="h1" style="z-index: 10; color: rgb(28, 235, 123); font-size: 150%; line-height: 1.04;" data-has-line-height="" data-placeholder-text="Text"><h1>{python}</h1></div></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 419.943px; height: auto;" data-name="text-d18e72" data-block-id="8df9aa563317b80ff2a934359208861e"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 11; text-align: center; color: rgb(164, 194, 244); font-size: 110%;" data-placeholder-text="Text"><p>Introduction to Python - Lecture 3</p></div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 473.349px; height: auto;" data-block-id="e985c32242913eca398b5eb1cea763d2" data-name="text-6fe9d5"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 12; text-align: center; color: rgb(164, 194, 244); font-size: 110%;" data-placeholder-text="Text"><p><span style="font-size:0.7em">Zohair ul Hasan</span></p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="eb5435129c8a632fa052645764ce593e"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="55b2016574711d7a348a80dbf7b38847"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Recap</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 184.081px;" data-name="text-e85d6f" data-block-id="cae610e35c4c61b20ed897bada74d5d9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>Yesterday we played with the Python Shell</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 311px;" data-block-id="34b616b6474194ea596a93f6ee6c712b" data-name="text-b2e342"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>Learned what expressions, values, operators, datatypes, and variables are</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 443px;" data-block-id="fa139da616c203f51a89e4c08371732a" data-name="text-74101d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><ul>
+	<li>Learned string concatenation and replication</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 556.281px;" data-block-id="bf23708e62ad0e0b3e48d8e9adae670d" data-name="text-ab4eb5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><ul>
+	<li>Learned the difference between statements and expressions - and saw assignment statements in action</li>
+</ul></div></div></section><section data-transition="fade" data-auto-animate="" data-id="50cb93a3bc8004aaedd088445d0e75b1"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="011c16088951a8c1b2604984740a9f2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Recap</h2></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 749.373px; height: 518px; left: 87.9089px; top: 132.335px; min-width: 1px; min-height: 1px;" data-name="image-019a8d" data-block-id="f220ba5dc214797f43497c782be50635"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="217" data-natural-height="150" data-lazy-loaded="" data-src="introduction-to-python-l2/286e9acbd847703a8eb7910b76744f76.svg"></div></div></section><section data-transition="fade" data-auto-animate="" data-id="64ce559439f7bccb1385d1c557a448fe"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="404c0aa6c549559f0d36aa47f9cf3994"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Recap</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-4939e8" data-block-id="c514144f32dd3d3e43b08a99f1bbbaf4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Yesterday's assignment?</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="2053ac77138eceadd5aab6931965f2ae"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="18814d9821463713d1e4260ab602484f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Today's Lecture</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 133.201px;" data-name="text-9b655a" data-block-id="13e5396a9445b339195b04cb8df16115"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>In this lecture, we will talk about:</p>
+<p><br></p>
+<ul>
+<li>A new data type (boolean)</li>
+<li>New operators (comparison operators and boolean operators)</li>
+<li>Conditions (and how they differ from expressions)</li>
+<li>Code blocks in Python</li>
+<li>New statements (control statements i.e. if statement, while loop statment, for loop statement)</li>
+<li>The range() function</li>
+<li>Importing modules</li>
+</ul>
+</div></div></section><section data-transition="fade" data-auto-animate="" data-id="04dc4af3281721daf66cc8d87182ca7b"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="4d63fe97aeafd2b6fcd7ba2cbb042b24"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Introduction</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 246.822px;" data-name="text-9b655a" data-block-id="6df61cb14cf673632e08304cc8d052e0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>So far, we've seen programs running as a series of instructions</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 384.967px;" data-block-id="222c50fea47e1e5c0c6177715de0f1f0" data-name="text-505a7d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>The strength of programming, however, lies in the ability to skip, repeat, or choose one of several instructions based on certain conditions</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="26149b4ef98400650a2b7ee54d1abfad"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="88e076a6f41066ac1eccbfe74c4882a1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Introduction</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 296.859px;" data-name="text-9b655a" data-block-id="7142df0a23ec8215f9f00c42f20b9e4d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>We can choose which pieces of code to run using <em>flow control statements</em></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 442.619px;" data-block-id="f3401f277a9cf56b7c47eb3237bcd96d" data-name="text-b716a7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>We will explore them in detail in this lecture</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="a51715918f0c590640012419e7e9d9dd"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="867fea88c0190ce3ca117a2b0395dfce"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Introduction</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 580.665px; height: 455.998px; left: 180px; top: 155.177px; min-width: 1px; min-height: 1px;" data-name="image-d538d6" data-block-id="124dafd67b90335682bb71ff3cf3ea0e"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="694" data-natural-height="545" data-lazy-loaded="" data-src="introduction-to-python-l2/5d133f4033f9c0d8c899900423544a2e.png"></div></div></section><section data-transition="fade" data-auto-animate="" data-id="f3b5433cc275f5e0bfc3d36e4affc551"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 33.5171px;" data-name="text-76ddde" data-block-id="603b9ee845b4494c1bb2d2357646ba0d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Introduction</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 194px;" data-name="text-9b655a" data-block-id="4ec8ac82a18fb5c2fbf427efa8a0f036"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>But before we learn flow control statements in Python, we need to learn how to represent the "yes" and "no" options we saw in the flow chart</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 413.248px;" data-block-id="194761a7f285b81a33f00db92f068377" data-name="text-b4caae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>We represent the yes and no values using a new data type called the "boolean" data type</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="242ee1a7fc942dc2eacbc44422c83c2c"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="f59d1888a44d77ee69fe0a65eb1a67fc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Boolean Datatype</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 305.72px;" data-name="text-9b655a" data-block-id="e9e937c6fa0f3ee9a0fc426f8d9435f8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>While the integer, floating point and string data types have an unlimited number of possible values, the Boolean data type only has two values: <em>True </em>and <em>False</em></p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="5b86b92da7f24c67c709160d9e43e3fa"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="ee27dd279e642fee918af41feb5fd3b5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Boolean Datatype</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 263.297px;" data-name="text-9b655a" data-block-id="e088ff42d178f07f3f4eaa1318b71458"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Boolean values:</p>
+
+<ul>
+	<li>Do not need to be surrounded with quotes like Strings do</li>
+</ul>
+
+<p> </p>
+
+<ul>
+	<li>Always start with a capital T or F, with the rest of the word being in lowercase</li>
+</ul>
+</div></div></section><section data-transition="fade" data-auto-animate="" data-id="735c48aca23961d6d3252a474f0f175a"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="18721f8a81926c4e273aa57f0e94e882"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Boolean Datatype</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 674.041px; height: 467.515px; left: 128.839px; top: 153.226px;" data-name="code-a0f22f" data-block-id="ffc885c1a0b3471dd257afadca5edba2"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="1-4|5-7|8-9|10-13|14-18">&gt;&gt;&gt; True
+True
+&gt;&gt;&gt; False
+False
+&gt;&gt;&gt; spam = True
+&gt;&gt;&gt; spam
+True
+&gt;&gt;&gt; type(spam)
+&lt;class 'bool'&gt;
+&gt;&gt;&gt; true
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+NameError: name 'true' is not defined. Did you mean: 'True'?
+&gt;&gt;&gt; True = 2 + 2
+  File "&lt;stdin&gt;", line 1
+    True = 2 + 2
+    ^^^^
+SyntaxError: cannot assign to True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="09c206b8825d844c362af26e4ece3ba9"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="301df3387ef0d3a1a6257f98650f6d92"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Comparison Operators</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 203.233px;" data-name="text-f7d279" data-block-id="edb376f740823616e5a85947109c372c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p><em>Comparison Operators </em>compare two values and evaluate down to a single Boolean value</p></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; min-width: 120px; width: 800px; left: 80px; top: 306.045px;" data-name="table-e43144" data-block-id="f4843c519ea449ed8f5f658efa22066e"><div class="sl-block-content" style="z-index: 12; text-align: center;" data-table-rows="7" data-table-cols="2"><table><tbody>
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>==</td>
+<td>Equal to</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Not equal to</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater than or equal to</td>
+</tr>
+</tbody></table></div></div></section><section data-transition="fade" data-auto-animate="" data-id="f4a3317796c544ac8affa461201bb3bb"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="cb2fb985f8d43df08af9743cc60be106"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Comparison Operators</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 319.623px;" data-name="text-f7d279" data-block-id="6daa72dadfb01c49652d26c212b37928"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>These operators evaluate to a True or False value depending on the given values</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="0c50501c8e418ba2c657a566e8c48197"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="f695f7c3ee807b12d1b406feb5d6e396"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Comparison Operators</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 683.831px; height: 483.831px; left: 121.224px; top: 164.104px;" data-name="code-828e04" data-block-id="9bc3a4d627518054ba1326ecab66e0e9"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="1-2|3-4|5-6|7-8|9-10|11-12|13-14|15-16|17-18|19-20|21-22">&gt;&gt;&gt; 42 == 42
+True
+&gt;&gt;&gt; 42 == 99
+False
+&gt;&gt;&gt; 2 != 3
+True
+&gt;&gt;&gt; 2 != 2
+False
+&gt;&gt;&gt; 'hello' == 'hello'
+True
+&gt;&gt;&gt; 'hello' == 'Hello'
+False
+&gt;&gt;&gt; 'dog' != 'cat'
+True
+&gt;&gt;&gt; True == True
+True
+&gt;&gt;&gt; True != False
+True
+&gt;&gt;&gt; 42 == 42.0
+True
+&gt;&gt;&gt; 42 == '42'
+False</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="355b7040dbc0cc580e8ad0e95e6c719a"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="b661e0c896881fabf737128eb6cf853c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Comparison Operators</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 683.831px; height: 483.831px; left: 121.224px; top: 164.104px;" data-name="code-828e04" data-block-id="256328ed0efbb47caa6d6648e86b6d5f"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="1-2|3-4|5-6|7-8|9-10|11-12">&gt;&gt;&gt; 42 &lt; 100
+True
+&gt;&gt;&gt; 42 &gt; 100
+False
+&gt;&gt;&gt; 42 &lt; 42
+False
+&gt;&gt;&gt; egg_count = 42
+&gt;&gt;&gt; egg_count &lt;= 42
+True
+&gt;&gt;&gt; my_age = 29
+&gt;&gt;&gt; my_age &gt;= 10
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="f64a65a45d877b06c26e544293b604a8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="563c9a83a9f6e5eb067ee1cdc7d77cce"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>== versus =</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 242.392px;" data-name="text-c7d215" data-block-id="0e7985b471fa4d7c3aacbe282089f553"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>The == operator (equal to) asks whether two values are the same as each other (it is an expression that evaluates to a True or False value)</li>
+</ul>
+
+<p> </p>
+
+<ul>
+	<li>The = operator (assignment) puts the value on the right into the variable on the left</li>
+</ul>
+</div></div></section><section data-transition="fade" data-auto-animate="" data-id="167e19591294c9ed7b97ce9b7418dbe1"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="d7529ca6685f1abda92280c9433d065b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Boolean Operators</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 242.392px;" data-name="text-c7d215" data-block-id="939c43e7e32a6d154cfddedea089ed00"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Just like the comparison operators, boolean operators are used to compare boolean values</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 400.117px;" data-block-id="835051f6b50cecc013861a580f2da3ce" data-name="text-5674e3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>There are three boolean operators in Python:</p>
+
+<ul>
+	<li>and</li>
+	<li>or</li>
+	<li>not</li>
+</ul>
+</div></div></section><section data-transition="fade" data-auto-animate="" data-id="5072c401ea3aea689d6ba37b0f090d97"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="b6c3b575540e26eb6ca0fc3bcc1b8595"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>The and operator</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 215.29px;" data-name="text-c7d215" data-block-id="80ce771ddc4ce72458383b13455481d5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>The <code>and </code>operator evaluates an expression to True if the expression on the left handside as well as the expression on the right hand side evaluates to True</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 443.627px;" data-block-id="497ede1a0d6841d10d31f342677b195e" data-name="text-2334b7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Otherwise it evaluates to false</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="dcb242bc0814e68c9f84f130a66335c4"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="74cbd0e36a18861a5b1f04cde0e22006"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>The and operator</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 218.492px;" data-name="code-bbe97d" data-block-id="ef8d6e64708a0e268b064e4422f17c2e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; True and True
+True
+&gt;&gt;&gt; True and False
+False
+&gt;&gt;&gt; False and True
+False
+&gt;&gt;&gt; False and False
+False</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="33a6b731ee3ed1596b6adb1b15ad0942"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="b94411c6449a79e1adc74c02fb2e00a5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Truth table for the and operator</h2></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; min-width: 120px; width: 800px; left: 80px; top: 274.5px;" data-name="table-c60e45" data-block-id="1fe2d95368149235a8e343e4a2bc37e3"><div class="sl-block-content" style="z-index: 11;" data-table-rows="5" data-table-cols="2"><table><tbody>
+<tr>
+<th>Expression</th>
+<th>Evaluates to...</th>
+</tr>
+<tr>
+<td>True and True</td>
+<td>True</td>
+</tr>
+<tr>
+<td>True and False</td>
+<td>False</td>
+</tr>
+<tr>
+<td>False and True</td>
+<td>False</td>
+</tr>
+<tr>
+<td>False and False</td>
+<td>False</td>
+</tr>
+</tbody></table></div></div></section><section data-transition="fade" data-auto-animate="" data-id="2814378372f0d9cfc927cdf01f93308a"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="7f70e0be95edb3739ab21446bceae842"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Truth table for the or operator</h2></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 800px; left: 80px; top: 274.5px;" data-name="table-c60e45" data-block-id="7a896fd6ec7b333754925508df6d79c7"><div class="sl-block-content" style="z-index: 11;" data-table-rows="5" data-table-cols="2"><table><tbody>
+<tr>
+<th>Expression</th>
+<th>Evaluates to...</th>
+</tr>
+<tr>
+<td>True and True</td>
+<td>True</td>
+</tr>
+<tr>
+<td>True and False</td>
+<td>True</td>
+</tr>
+<tr>
+<td>False and True</td>
+<td>True</td>
+</tr>
+<tr>
+<td>False and False</td>
+<td>False</td>
+</tr>
+</tbody></table></div></div></section><section data-transition="fade" data-auto-animate="" data-id="816e70619f8aa3e14d070f20646a1da7"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="52bf19a02f35848b00177eed0a636f65"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>The not operator</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 232px;" data-name="text-3ef342" data-block-id="41985ed48430a1ab9e76dcfebf01dafe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Unlike the <code>and </code>and <code>or </code>operators, the <code>not</code> operator operates on a single Boolean value (or expression)</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 427.311px;" data-block-id="ac2ecc5408c5abb587525a629b84d690" data-name="text-90d229"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>The <code>not </code>operator simply evaluates to the opposite boolean value</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="ed9fc8e1292594d312bf339a4e1d8a12"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="2b2ea84c47e3b35a0493655700b00130"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>The not operator</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 200px;" data-name="code-4f92a7" data-block-id="7c41aa8b364150596758f988ac342c57"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; not True
+False
+&gt;&gt;&gt; not False
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="fb8980cfb0a9062853e7bfa6461c207b"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="5e08236e26d8982e3903fd960b7d3c16"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Truth table for the not operator</h2></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 800px; left: 80px; top: 274.5px;" data-name="table-c60e45" data-block-id="7f54dd81f707ce743794d65c9aef5789"><div class="sl-block-content" style="z-index: 11;" data-table-rows="3" data-table-cols="2"><table><tbody>
+<tr>
+<th>Expression</th>
+<th>Evaluates to...</th>
+</tr>
+<tr>
+<td>True</td>
+<td>False</td>
+</tr>
+<tr>
+<td>False</td>
+<td>True</td>
+</tr>
+</tbody></table></div></div></section><section data-transition="fade" data-auto-animate="" data-id="df79f16b5e2a21f4cfe81f1737f408ef"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="dcb966dc779cfd439ba320663c4ffd32"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Mixing boolean and comparison operators</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 298.955px;" data-name="text-72cacf" data-block-id="f06b7423a1534788f53022cf09773ae2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Boolean operators are named so because they operator only on boolean expressions</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 424.047px;" data-block-id="02d5d9724dd04beb976bb4d1985b62f1" data-name="text-43897d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Since comparison operators (==, &lt;, &gt;, &lt;=, &gt;=) always evaluate down to boolean values, we can combine them together </p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="451f5259faf80fd8bad9a2963d0fba03"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="b2ead537a6b04d9c6271bddfe3ab2570"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Mixing boolean and comparison operators</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 295.723px;" data-name="code-9e6393" data-block-id="3e74701cc35458ed302777100f5fb24a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; (4 &lt; 5) and (5 &lt; 6)
+True
+&gt;&gt;&gt; (4 &lt; 5) and (9 &lt; 6)
+False
+&gt;&gt;&gt; (1 == 2) or (2 == 2)
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="71b7cd60750fa9f1cab11b067fd19ac8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="fd0ebae820fdc14c247846820e791835"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Mixing boolean and comparison operators</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 266.819px; height: 285.22px; left: 346.591px; top: 270.48px;" data-name="image-9924ce" data-block-id="57e1e1f3bfca3942195edb0987efa7b7"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="145" data-natural-height="155" data-src="introduction-to-python-l2/ac1f72c0c1c71a00aa523c3eebbfd102.png"></div></div></section><section data-transition="fade" data-auto-animate="" data-id="795836e3a48ad78dd6bc4befab8f3aed"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="d8d587e7125d9af67dd3a3bf807b0d19"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Mixing boolean and comparison operators</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 576.143px; height: 80.384px; left: 218.035px; top: 342.496px;" data-name="code-0bdc3e" data-block-id="0905c8d6608a689b8bb9f3f4f42244be"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; 2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="1d2c58b88b40db54e11b566498af89da"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="8c96fe0ba78c03d7f75b268e0f28c7b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow control statements</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-5d92ba" data-block-id="ffcf58e11001b382f28c92a2170a2f28"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Flow controls statements start with a <em>condition, </em>followed by a block of code called the <em>clause</em></p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="7f928e241c20460ee51b137b721c0819"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="004667d5b8a5ed8ea3a7c855104fa860"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Conditions</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-5d92ba" data-block-id="e08517b0ba58b40826e93f998a612ed2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Conditions are expressions that evaluate to a Boolean value (i.e. True/False)</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="c6684fc5de5714201bceebfcf2fbb45a"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="900829677f4712c50306a8a5765da2d9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Block of code</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 185.828px;" data-name="text-5d92ba" data-block-id="d05cf347a2075de0299605b1fb2076bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Lines of Python code can be grouped into "blocks"</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 311px;" data-block-id="df2f3c67b1737b8352f797e431fdfc41" data-name="text-2c9436"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>There are three rules for blocks:</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 386.055px;" data-block-id="d52f0e033469c0bc469ec3e64c6748b9" data-name="text-6d7147"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>1. Blocks begin when the indentation  increases</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 477.427px;" data-block-id="49d1adc9e6101bba9b33a30ef70bdb06" data-name="text-e8baed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><p>2. Blocks can contain other blocks</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 554.658px;" data-block-id="afc44e59395216317443ad11d799db41" data-name="text-90c391"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><p>3. Blocks end when the indentation reduces to the containing block's indentation level</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="3de685bc60b1b92cd24547b9f13f5144"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50.9212px;" data-name="text-76ddde" data-block-id="3fc98f7e26821db2c6fb41ddd4e39c77"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Block of code</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 200px;" data-name="code-9ecbcc" data-block-id="53d84298cee5ab939817d4625d8d609b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">  name = 'Mary'
+  password = 'swordfish'
+  if name == 'Mary':
+    print('Hello, Mary')
+    if password == 'swordfish':
+        print('Access granted.')
+    else:
+        print('Wrong password.')</code></pre></div></div>
+<div class="sl-block" data-block-type="drawing" style="width: 20.7789px; height: 97.5653px; left: 200.436px; top: 264.155px;" data-name="drawing-9e7253" data-block-id="d9f6e724b73e1dfedbf5ed21a0f0b0a8"><div class="sl-block-content" data-points="212.61 266.6,210.71 265.53,208.36 265.45,206.2 265.45,205.12 267.8,205.02 270.22,205.02 272.85,205.02 275.44,205.55 277.82,206.4 280,207.28 282.08,207.72 284.19,208.29 286.42,208.93 289.14,209.55 291.51,210.19 293.94,210.67 296.05,211.09 298.7,211.09 300.72,210.08 302.49,207.66 302.49,204.79 303.57,202.6 305.06,201.13 306.47,200.24 308.3,202.09 309.13,205.13 309.13,207.23 309.13,209.41 309.24,208.87 311.71,208.28 313.87,208.28 316.25,208.28 319,208.28 321.47,208.28 323.98,208.28 326.83,208.28 329.18,208.28 331.47,208.45 334.21,208.77 337.16,209.33 339.64,209.64 341.75,210.27 344.55,210.97 347.31,211.37 349.34,212.23 351.84,212.76 354,213.24 356.05,213.67 358.41,214.4 360.41,216.45 360.56,218.7 360.41,219.92 358.75,220.34 356.56,220.34 354.26" data-timestamp="1719944239680" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="200.43605041503906 264.15472412109375 20.778854370117188 97.56527709960938"><path fill="rgb(164, 194, 244)" d="M 211.47167889112714 267.67842956724166 Q 211.47 267.68 210.48 267.28 209.48 266.89 208.23 267.16 206.97 267.43 206.72 269.04 206.47 270.64 206.45 271.89 206.43 273.14 206.48 274.37 206.52 275.6 206.78 276.66 207.04 277.71 207.42 278.71 207.81 279.72 208.21 280.77 208.6 281.82 208.89 282.97 209.17 284.11 209.46 285.27 209.74 286.43 210.04 287.73 210.34 289.04 210.65 290.23 210.96 291.43 211.26 292.61 211.57 293.79 211.82 294.94 212.07 296.1 212.24 297.39 212.41 298.69 212.25 299.92 212.09 301.15 211.17 302.27 210.24 303.4 208.88 303.74 207.51 304.09 206.33 304.57 205.15 305.04 204.09 305.64 203.03 306.24 202.55 306.7 202.07 307.16 203.69 307.44 205.32 307.72 207.21 307.77 209.11 307.81 209.52 307.94 209.94 308.08 210.2 308.44 210.45 308.8 210.45 309.24 210.45 309.67 210.19 310.03 209.92 310.38 209.9 310.82 209.88 311.26 209.81 312.84 209.73 314.41 209.72 315.52 209.7 316.62 209.68 317.93 209.67 319.24 209.67 320.49 209.66 321.74 209.66 323.03 209.65 324.32 209.64 325.68 209.64 327.03 209.64 328.22 209.65 329.41 209.67 330.6 209.69 331.79 209.77 333.13 209.86 334.46 210.02 335.84 210.18 337.21 210.42 338.38 210.66 339.56 210.87 340.73 211.08 341.89 211.37 343.22 211.66 344.55 211.97 345.85 212.28 347.14 212.56 348.24 212.83 349.34 213.2 350.49 213.56 351.63 213.85 352.75 214.15 353.86 214.4 354.95 214.65 356.03 215.2 357.08 215.75 358.14 216.99 358.3 218.24 358.46 218.43 357.22 218.63 355.98 219.35 355.36 220.07 354.75 220.79 355.37 221.51 355.98 221.01 356.79 220.52 357.6 219.64 357.23 218.77 356.87 218.99 355.95 219.21 355.03 220.16 355.1 221.1 355.18 221.08 357.19 221.05 359.21 220.16 360.24 219.27 361.26 217.94 361.57 216.61 361.87 215.35 361.57 214.08 361.26 213.31 360.14 212.54 359.01 212.22 357.83 211.91 356.64 211.68 355.59 211.46 354.54 211.21 353.49 210.95 352.44 210.57 351.2 210.19 349.96 209.93 348.86 209.68 347.76 209.37 346.45 209.05 345.15 208.72 343.75 208.4 342.35 208.21 341.21 208.02 340.08 207.78 338.81 207.54 337.55 207.35 336.1 207.15 334.65 207.05 333.24 206.94 331.83 206.92 330.62 206.91 329.41 206.92 328.22 206.92 327.03 206.92 325.68 206.91 324.32 206.9 323.03 206.9 321.74 206.89 320.49 206.89 319.24 206.88 317.9 206.87 316.56 206.91 315.22 206.95 313.88 207.15 312.82 207.36 311.76 208.34 310.32 209.33 308.88 209.63 308.48 209.94 308.08 210.2 308.44 210.45 308.8 210.45 309.24 210.45 309.67 210.19 310.03 209.92 310.38 209.51 310.51 209.09 310.65 207.16 310.58 205.23 310.51 203.04 309.99 200.86 309.47 200.53 307.85 200.21 306.22 200.98 305.16 201.75 304.1 202.92 303.32 204.1 302.53 206.19 302 208.28 301.46 208.95 300.34 209.61 299.22 209.48 297.95 209.34 296.68 209.11 295.58 208.88 294.47 208.58 293.3 208.28 292.12 207.96 290.9 207.65 289.69 207.32 288.4 207 287.11 206.55 285.23 206.1 283.35 205.65 282.03 205.19 280.7 204.76 279.52 204.33 278.35 204.04 277.04 203.75 275.74 203.68 274.43 203.62 273.12 203.62 271.77 203.62 270.42 203.77 268.98 203.92 267.55 204.67 266.25 205.42 264.96 206.75 264.52 208.07 264.08 209.5 264.17 210.92 264.25 211.92 264.65 212.92 265.05 213.12 265.17 213.33 265.29 213.52 265.43 213.7 265.58 213.83 265.77 213.97 265.96 214.03 266.19 214.1 266.41 214.09 266.65 214.08 266.88 214 267.1 213.92 267.32 213.78 267.51 213.63 267.69 213.44 267.82 213.25 267.96 213.02 268.02 212.8 268.09 212.56 268.08 212.33 268.07 212.11 267.99 211.89 267.91 211.68 267.8 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 156.195px; left: 44.241px; top: 293.438px;" data-name="text-983565" data-block-id="d28e7d704b51da63a4daa8b5a2feb241"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>Block 1</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 170.336px; left: 730px; top: 277.425px;" data-name="text-f69da7" data-block-id="3210f5c4736b9cc7b66704c0012aa072"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;"><p>Block 2</p></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-297f1d" data-block-id="769b049ec408021a2a67453fef384d4d"><div class="sl-block-content sl-block-group-content" style="transform-origin: 659.985px 331.229px; z-index: 14;">
+<div class="sl-block" data-block-type="drawing" style="width: 174.086px; height: 15.105px; left: 565.914px; top: 301.32px;" data-name="drawing-0a8f09" data-block-id="53f0d44ce20820c0072faca40e650c31"><div class="sl-block-content" data-points="738.57 302.77,734.31 302.77,731.31 302.77,727.97 302.77,724.69 302.77,721.41 302.77,718.16 302.95,714.95 303.35,711.39 303.77,707.77 304.19,703.6 304.63,699.04 305.1,694.41 305.56,689.53 306.02,684.7 306.49,680.05 306.95,675.49 307.59,671.01 308.29,666.89 308.98,662.68 309.88,658.34 310.8,654.27 311.48,650.74 312.09,647.82 312.71,645.27 313.28,642.9 313.75,640.69 314.12,638.62 314.49,636.42 314.68,633.98 314.87,631.48 315.06,629.01 315.06,626.27 315.06,623.28 315.06,620.43 315.06,617.93 315.06,615.75 315.06,612.22 315.06,608.62 314.82,606.68 314.26,604.53 313.56,601.87 312.94,599.21 312.41,596.85 311.95,594.54 311.5,592.24 311.16,589.77 310.96,587.03 310.71,584.13 310.3,581.71 310.09,578.64 310.09,576.2 310.09,574.04 310.09,571.72 310.09,569.55 310.09,569.99 307.86,571.77 306.66,574.07 305.54,576.18 305.01,573.95 306.49,572.37 308.04,570.72 310.01,568.66 311.8,567.01 313.11,569.82 314.34,573.23 314.34,575.53 314.34" data-timestamp="1719944277716" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="565.913818359375 301.32000732421875 174.086181640625 15.10498046875"><path fill="rgb(164, 194, 244)" d="M 737.6381250000001 304.21969331054686 Q 737.64 304.22 735.85 304.14 734.07 304.06 732.5 304.05 730.92 304.03 729.27 304.01 727.62 304 725.98 303.99 724.34 303.98 722.71 303.99 721.08 304.01 719.49 304.11 717.9 304.21 716.28 304.39 714.67 304.58 712.9 304.77 711.12 304.96 709.26 305.15 707.39 305.34 705.28 305.53 703.17 305.71 700.9 305.93 698.63 306.14 696.29 306.37 693.96 306.6 691.53 306.84 689.11 307.07 686.71 307.3 684.32 307.53 682 307.78 679.68 308.03 677.42 308.35 675.16 308.66 672.96 309.01 670.76 309.35 668.69 309.72 666.61 310.08 664.51 310.52 662.4 310.96 660.27 311.39 658.13 311.83 656.13 312.17 654.13 312.52 652.41 312.84 650.69 313.16 649.26 313.51 647.83 313.85 646.56 314.17 645.29 314.48 644.11 314.74 642.92 315.01 641.82 315.22 640.71 315.44 639.65 315.63 638.58 315.82 637.42 315.94 636.26 316.06 635.03 316.16 633.81 316.26 632.56 316.34 631.3 316.41 630 316.42 628.7 316.43 627.31 316.42 625.92 316.41 624.45 316.4 622.99 316.38 621.59 316.38 620.2 316.37 618.97 316.38 617.74 316.39 616.48 316.4 615.23 316.4 613.51 316.33 611.79 316.26 610.13 316.09 608.46 315.93 607.3 315.66 606.13 315.4 604.97 315.08 603.81 314.76 602.55 314.47 601.28 314.18 600 313.93 598.73 313.67 597.54 313.45 596.35 313.23 595.2 313.02 594.05 312.82 592.91 312.67 591.77 312.52 590.54 312.41 589.32 312.3 587.94 312.15 586.56 311.99 585.16 311.81 583.76 311.62 582.49 311.53 581.22 311.45 579.82 311.43 578.43 311.41 577.22 311.42 576.01 311.43 574.89 311.44 573.78 311.46 571.82 311.47 569.86 311.49 569.45 311.36 569.04 311.22 568.79 310.87 568.53 310.52 568.53 310.09 568.53 309.66 568.79 309.31 569.04 308.96 569.24 308.55 569.44 308.15 570.35 306.78 571.26 305.41 573.24 304.62 575.22 303.83 575.66 303.76 576.09 303.69 576.48 303.89 576.88 304.08 577.08 304.47 577.28 304.87 577.22 305.3 577.15 305.74 576.88 305.95 576.62 306.17 575.65 307 574.67 307.82 573.93 308.57 573.2 309.32 572.34 310.23 571.49 311.14 569.84 312.55 568.19 313.96 567.79 314.13 567.4 314.31 566.97 314.22 566.55 314.13 566.26 313.81 565.97 313.48 565.92 313.05 565.88 312.62 566.41 312.66 566.94 312.7 568.86 312.83 570.78 312.96 572.01 312.9 573.24 312.84 573.82 313.45 574.41 314.06 573.9 314.73 573.39 315.4 572.64 315 571.9 314.6 572.18 313.81 572.45 313.01 573.28 313.16 574.11 313.31 574.1 314.15 574.08 314.99 571.4 314.82 568.72 314.64 568.06 314.47 567.4 314.31 566.97 314.22 566.55 314.13 566.26 313.81 565.97 313.48 565.92 313.05 565.88 312.62 566.1 312.25 566.31 311.87 567.86 310.55 569.42 309.24 570.3 308.26 571.18 307.29 572.05 306.43 572.91 305.56 574.16 304.81 575.41 304.06 575.75 303.87 576.09 303.69 576.48 303.89 576.88 304.08 577.08 304.47 577.28 304.87 577.22 305.3 577.15 305.74 576.84 306.05 576.53 306.36 574.27 307.26 572.01 308.15 570.8 309.35 569.58 310.55 569.31 310.89 569.04 311.22 568.79 310.87 568.53 310.52 568.53 310.09 568.53 309.66 568.79 309.31 569.04 308.96 569.45 308.82 569.86 308.69 571.82 308.71 573.78 308.72 574.89 308.74 576.01 308.75 577.23 308.77 578.45 308.78 579.93 308.78 581.41 308.78 582.75 308.88 584.09 308.97 585.46 309.14 586.83 309.3 588.2 309.43 589.57 309.56 590.86 309.68 592.14 309.79 593.34 309.96 594.54 310.13 595.71 310.36 596.87 310.58 598.06 310.83 599.25 311.07 600.56 311.34 601.88 311.61 603.22 311.92 604.56 312.24 606.39 312.79 608.21 313.34 610.02 313.55 611.83 313.75 613.53 313.74 615.23 313.72 616.48 313.72 617.74 313.73 618.97 313.74 620.2 313.75 621.59 313.74 622.99 313.74 624.45 313.72 625.92 313.71 627.3 313.7 628.68 313.68 629.91 313.67 631.14 313.66 632.36 313.59 633.59 313.52 634.8 313.42 636 313.33 637.08 313.25 638.16 313.16 639.21 313.02 640.26 312.87 641.35 312.71 642.45 312.55 643.62 312.35 644.79 312.16 646.08 311.92 647.37 311.68 648.84 311.41 650.32 311.15 652.05 310.85 653.79 310.55 655.76 310.21 657.73 309.87 659.86 309.44 662 309 664.13 308.56 666.26 308.12 668.36 307.75 670.46 307.38 672.67 307.03 674.88 306.68 677.17 306.36 679.47 306.04 681.8 305.79 684.13 305.54 686.52 305.31 688.92 305.08 691.34 304.85 693.76 304.61 696.09 304.38 698.43 304.15 700.69 303.9 702.95 303.65 705.04 303.4 707.13 303.14 709 302.91 710.86 302.67 712.63 302.45 714.39 302.23 716.07 302.03 717.74 301.83 719.4 301.72 721.05 301.61 722.69 301.59 724.34 301.56 725.98 301.55 727.62 301.54 729.27 301.53 730.92 301.51 732.5 301.49 734.07 301.48 735.85 301.4 737.64 301.32 738.1 301.32 738.57 301.32 738.79 301.36 739.02 301.39 739.22 301.49 739.42 301.6 739.58 301.76 739.74 301.92 739.85 302.12 739.95 302.32 739.98 302.55 740.02 302.77 739.98 302.99 739.95 303.22 739.85 303.42 739.74 303.62 739.58 303.78 739.42 303.94 739.22 304.05 739.02 304.15 738.79 304.18 738.57 304.22 738.1 304.22 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" style="width: 182.969px; height: 12.09px; left: 571.086px; top: 349.048px;" data-name="drawing-31c33c" data-block-id="b1c9a5d3a142c5574134103118fd7ae9"><div class="sl-block-content" data-points="752.61 356.21,748.63 356.48,743.48 356.48,736.89 356.48,730.89 356.48,724.76 356.86,718.67 357.6,714.34 358.17,711.44 358.37,705.01 358.37,702.02 358.37,699.01 358.37,695.69 358.37,692.16 358.37,688.63 358.37,685.37 358.37,682.84 358.37,678.93 358.37,676.79 358.37,674.14 358.37,671.13 358.37,667.91 358.37,664.79 358.37,662.14 358.37,659.76 358.37,657.39 358.37,655.32 358.37,653.08 358.37,650.36 358.37,647.75 358.37,645.09 358.37,642.12 358.16,638.63 357.84,633.88 357.61,628.26 357.48,623.06 357.25,618.5 357.02,615.11 356.82,612.92 356.63,610.03 356.46,606.05 356.08,602.97 355.96,600.03 355.83,597.26 355.63,594.85 355.57,592.77 355.57,590.38 355.57,587.93 355.57,585.56 355.57,583.51 355.57,581.11 355.35,578.79 355.28,576.74 355.01,574.55 354.87,573.17 353.42,575.65 351.78,578.03 350.97,580.27 350.28,578.09 351.75,575.92 353.51,573.73 354.68,572.01 355.78,571.79 357.78,573.45 359.11,575.44 359.87,577.52 360.81" data-timestamp="1719944284504" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="571.0863037109375 349.04840087890625 182.96942138671875 12.0899658203125"><path fill="rgb(164, 194, 244)" d="M 751.8381100802368 357.72507200392465 Q 751.84 357.73 749.9 357.72 747.96 357.72 745.28 357.62 742.59 357.51 739.44 357.5 736.29 357.48 733.26 357.52 730.24 357.56 727.21 357.77 724.18 357.98 721.35 358.31 718.52 358.64 716.42 358.89 714.33 359.14 712.38 359.24 710.44 359.34 707.74 359.35 705.03 359.37 703.38 359.37 701.74 359.37 700.18 359.39 698.62 359.41 696.95 359.43 695.28 359.46 693.53 359.47 691.78 359.47 690.04 359.48 688.31 359.49 686.75 359.51 685.18 359.52 683.73 359.54 682.28 359.56 680.58 359.54 678.88 359.53 677.68 359.56 676.47 359.6 675.12 359.62 673.77 359.63 672.26 359.63 670.76 359.62 669.17 359.62 667.58 359.61 666.07 359.61 664.56 359.61 663.24 359.62 661.92 359.64 660.72 359.66 659.51 359.68 658.36 359.7 657.2 359.71 656.13 359.73 655.07 359.74 653.9 359.75 652.73 359.76 651.41 359.75 650.09 359.74 648.77 359.74 647.46 359.73 646.09 359.7 644.72 359.67 643.15 359.54 641.59 359.41 639.74 359.21 637.88 359.02 635.5 358.83 633.11 358.64 630.41 358.54 627.71 358.45 625.15 358.33 622.6 358.22 620.41 358.11 618.23 358 616.59 357.91 614.96 357.82 613.72 357.76 612.47 357.71 610.93 357.62 609.4 357.53 607.56 357.37 605.72 357.2 604.17 357.15 602.63 357.1 601.16 357.05 599.69 356.99 598.33 356.93 596.97 356.87 595.81 356.87 594.64 356.86 593.56 356.88 592.48 356.9 591.29 356.91 590.11 356.92 588.9 356.93 587.68 356.94 586.53 356.94 585.38 356.95 584.28 356.94 583.19 356.92 581.98 356.84 580.77 356.76 579.64 356.7 578.52 356.64 577.41 356.52 576.3 356.41 574.79 355.73 573.28 355.05 572.86 354.88 572.45 354.72 572.21 354.34 571.97 353.95 572 353.51 572.04 353.06 572.32 352.72 572.61 352.37 572.85 352.19 573.08 352 574.13 351.31 575.17 350.62 577.31 349.85 579.44 349.08 579.87 349.05 580.3 349.03 580.67 349.26 581.03 349.49 581.19 349.9 581.35 350.3 581.24 350.72 581.13 351.14 580.88 351.34 580.64 351.54 579.64 352.33 578.65 353.13 577.57 353.91 576.5 354.69 575.4 355.39 574.31 356.08 574.03 356.8 573.74 357.51 575.04 358.09 576.33 358.66 576.73 359.52 577.13 360.38 576.34 360.91 575.55 361.44 574.91 360.74 574.26 360.05 574.85 359.3 575.43 358.56 576.26 359.02 577.09 359.48 576.76 360.37 576.44 361.26 574.64 360.75 572.84 360.24 571.93 359.29 571.03 358.35 571.09 356.91 571.15 355.47 572 354.56 572.85 353.65 573.85 353.05 574.85 352.46 575.9 351.67 576.95 350.87 578.27 350.12 579.6 349.38 579.95 349.2 580.3 349.03 580.67 349.26 581.03 349.49 581.19 349.9 581.35 350.3 581.24 350.72 581.13 351.14 580.79 351.41 580.46 351.69 578.59 352.31 576.73 352.94 575.06 353.63 573.39 354.32 572.92 354.52 572.45 354.72 572.21 354.34 571.97 353.95 572 353.51 572.04 353.06 572.32 352.72 572.61 352.37 573.05 352.26 573.48 352.16 575.82 352.98 578.16 353.8 579.56 353.88 580.96 353.96 582.11 354.04 583.25 354.12 584.31 354.15 585.38 354.19 586.53 354.2 587.68 354.2 588.9 354.21 590.11 354.22 591.3 354.23 592.49 354.24 593.59 354.27 594.7 354.29 595.91 354.35 597.12 354.4 598.47 354.51 599.82 354.61 601.28 354.7 602.73 354.8 604.31 354.89 605.89 354.99 607.72 355.12 609.55 355.26 611.09 355.39 612.63 355.52 613.86 355.65 615.09 355.78 616.71 355.89 618.33 356 620.51 356.11 622.69 356.23 625.23 356.34 627.77 356.45 630.49 356.51 633.21 356.57 635.64 356.6 638.07 356.63 639.92 356.72 641.77 356.81 643.27 356.89 644.76 356.98 646.11 356.99 647.46 357.01 648.77 357 650.09 357 651.41 356.99 652.73 356.98 653.9 356.99 655.07 357 656.13 357.01 657.2 357.03 658.36 357.04 659.51 357.06 660.72 357.08 661.92 357.1 663.24 357.12 664.56 357.13 666.07 357.13 667.58 357.13 669.17 357.12 670.76 357.12 672.26 357.11 673.77 357.11 675.12 357.12 676.47 357.14 677.68 357.18 678.88 357.21 680.58 357.2 682.28 357.18 683.73 357.2 685.18 357.22 686.75 357.23 688.31 357.25 690.04 357.26 691.78 357.27 693.53 357.27 695.28 357.28 696.95 357.31 698.62 357.33 700.18 357.35 701.74 357.36 703.38 357.37 705.02 357.37 707.67 357.36 710.32 357.34 712.21 357.25 714.1 357.16 716.19 356.9 718.29 356.65 721.16 356.32 724.04 355.99 727.13 355.78 730.21 355.56 733.25 355.52 736.29 355.48 739.44 355.46 742.59 355.44 745.2 355.31 747.82 355.19 749.73 355 751.64 354.81 752.08 354.78 752.51 354.75 752.74 354.77 752.97 354.79 753.18 354.88 753.39 354.97 753.56 355.12 753.73 355.27 753.85 355.47 753.96 355.67 754.02 355.89 754.07 356.11 754.05 356.34 754.03 356.57 753.94 356.78 753.85 356.99 753.7 357.16 753.55 357.33 753.35 357.45 753.15 357.56 752.93 357.62 752.71 357.67 752.27 357.7 Z"></path></svg></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 170.336px; left: 730px; top: 330.5px;" data-block-id="2a1de09fbab52b11bfbbf3888536b967" data-name="text-584aaa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p>Block 3</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="7803eaeb85418e9bfa396c3faeb00ad9"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="c411050a61a469ba4ee54589889203ea"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the if statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-56e684" data-block-id="b1e111720e934e4175ddbc78e48d12ee"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>An if statement's clause (the block following the if statement) will execute if the if statement's condition is True</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 505.628px;" data-block-id="217dad6782651317557c7458a8707318" data-name="text-643704"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>The clause is skipped if the condition is False</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="948ee8ee27a97fa3e533eeeeb575067c"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="ce1e21eb6053b37ed33c3bd48898d9fa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the if statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 322.885px;" data-name="text-56e684" data-block-id="019755eb2d2626f6b177f3f72328324f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>In plain English, an if statement could be read as, “If this condition is true, execute the code in the clause.”</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="22f61a5d5a2c1dee511b46a964d77aae"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="04fd2ce650afe9b7141e64fc5d2bc3ca"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the if statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 282.638px;" data-name="text-56e684" data-block-id="55ba88fe0beff2306aa2bae721cb8d7f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>In Python, an <code>if</code> statement consists of the following:</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 387.063px;" data-block-id="df8dfc5de48a441b2ad7769f9aae0378" data-name="text-ac02b9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>The <code>if </code>keyword</li>
+	<li>A condition (i.e. an expression that evaluates to True or False)</li>
+	<li>A colon</li>
+	<li>Starting on the next line, an indented block of code (called the <code>if</code> clause)</li>
+</ul></div></div></section><section data-transition="fade" data-auto-animate="" data-id="08ab946b725ba5290bcb523bed1423be"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="a184775ee6ddb21a94d3552bfb3ba91c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the if statement</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 316.169px; height: 128.134px; left: 321.916px; top: 341.409px;" data-name="code-5cba49" data-block-id="57c8671af4850a3a0ad463bf48c1fca5"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">name = 'Alice'
+if name == 'Alice':
+    print('Hi, Alice.')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="a254cd0846197ecc669541823d532d1e"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="d495a9bd8cd9f0ba19c2ff51cfe6e967"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the else statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-56e684" data-block-id="30ab8ae850300479cd18bf402039087f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>An else statement's clause (the block following the if statement) will execute if the if statement's condition is False</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 505.628px;" data-name="text-643704" data-block-id="3b01f162e477519aeadce39d25a14e02"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>The clause is skipped if the condition is True</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="4ed0ca688b47846c7eb3a72a4e614779"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="7f29af4ce6ea62573bf3974f9ab14eb2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the else statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 322.885px;" data-name="text-56e684" data-block-id="2d61e8b3bed402538d3cac9ca7641972"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>In plain English, an else statement could be read as, “If this condition is true, execute this code. Otherwise, execute that code”</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="2eaf8305ebe628fe5ac4ed62c47b31be"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="0243c1b79fe2487778e10ade6b45467e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the else statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 282.638px;" data-name="text-56e684" data-block-id="d185fe3030b199533255397283d9bd30"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>In Python, an <code>else</code> statement consists of the following:</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 387.063px;" data-name="text-ac02b9" data-block-id="e6813f9d7d50ebeace81741d1c6856f3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>The <code>else </code>keyword</li>
+	<li>A colon</li>
+	<li>Starting on the next line, an indented block of code (called the <code>else</code> clause)</li>
+</ul></div></div></section><section data-transition="fade" data-auto-animate="" data-id="e70f62d3df5a04d31d8b0fbbceb79742"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="c6ce68f8ad05ab3398a6fe89793c2444"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the else statement</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 467.367px; height: 241.261px; left: 246.316px; top: 307.688px;" data-name="code-9a8511" data-block-id="b51c3c6fcb2c27ccd490766ce3c37c2a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="none" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="|1|2|4|5">name = 'Zohair'
+if name == 'Alice':
+    print('Hi, Alice.')
+else:
+    print('Hello, stranger.')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="b080aa654c6c0b6e632bc1d6ad4f9a64"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="52fb83f938a929c7d44439fb53d81c46"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the else statement</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 469.737px; height: 390.732px; left: 245.131px; top: 226.969px;" data-name="image-542a66" data-block-id="8f26f7875183f972d8ba85b3ae86a43a"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="547" data-natural-height="455" data-src="introduction-to-python-l2/92017ddba1398e88e36693592f3dbee5.png"></div></div></section><section data-transition="fade" data-auto-animate="" data-id="e1300cc36b3bfc74dc0e701da6d771f5"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="6b94580ba04b30c034403bb16bbfc5e3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the elif statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-56e684" data-block-id="6549c725076825bcc72763bc776c6918"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>The elif statement is an “else if” statement that always follows an if or another elif statement.</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 505.628px;" data-name="text-643704" data-block-id="7456c43ea2c8a383c0f8c1ffba398f6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>It provides another condition that is checked only if all of the previous conditions were False.</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="fb82eca69bfb10882b83a53fcda28a89"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="a1861a05f8b7729b95345764fa14d66a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the elif statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 282.638px;" data-name="text-56e684" data-block-id="83021422a7b31cf6a9dd47219e3487be"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>In Python, an <code>elif</code> statement consists of the following:</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 387.063px;" data-name="text-ac02b9" data-block-id="2a2f01fa3895c2dc02a94fe26a779eda"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>The <code>elif </code>keyword</li>
+	<li>A condition (an expression that evaluates to True or False)</li>
+	<li>A colon</li>
+	<li>Starting on the next line, an indented block of code (called the <code>elif</code> clause)</li>
+</ul></div></div></section><section data-transition="fade" data-auto-animate="" data-id="a037604ec83cef511dcd7b4f7e804065"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="eee62f918c659a421941ee88b29befe7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the elif statement</h2></div></div>
+<div class="sl-block" data-block-type="code" style="width: 467.367px; height: 241.261px; left: 246.316px; top: 307.688px;" data-name="code-9a8511" data-block-id="c7e1ea4e02913b0dc21341dcd18513c6"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="|1|2|4|5">name = 'Zohair'
+age = 9
+if name == 'Alice':
+    print('Hi, Alice.')
+elif age &lt; 13:
+    print('You are not Alice, kid.')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="5a1becc700b45143509bab45e7054608"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="cbcd893eccfa36d6707ed526f1b139e7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the elif statement</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 413.575px; height: 413.575px; left: 273.212px; top: 226.97px;" data-name="image-7e3e6a" data-block-id="24a5ea87d1638c417a78971b68873170"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="603" data-natural-height="603" data-src="introduction-to-python-l2/3acf877ce39ff4eb2c5dd0295ac34694.png"></div></div></section><section data-transition="fade" data-auto-animate="" data-id="8e7e5f0605e28440a0d745972a376819"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="b6aeaa5e7fcbc10f255aec6d531234a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements: the elif statement</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-d7e6f5" data-block-id="2e0883dc19752d3058968f85806ed99b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>The <code>elif</code> clause executes if <code>age &lt; 12</code> is True and <code>name == 'Alice'</code> is False. However, if both of the conditions are False, then both of the clauses are skipped</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="d968030380f3df723d7c988205d116bf"><div class="sl-block" data-block-type="text" style="height: auto; width: 683.757px; left: 138.121px; top: 49.8334px;" data-name="text-76ddde" data-block-id="d1e7e7d6ebd48f72e825046ac2eea62c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Flow Control Statements</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-d7e6f5" data-block-id="4bffd19cf0c32e29f7f352de818ea7d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Now let's do an activity to practice control statements: <a href="https://itp.zohair.dev/activities/control-statements" target="_blank">https://itp.zohair.dev/activities/control-statements</a></p></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3220106,"slug":"introduction-to-python-l2","title":"Introduction to Python - L3","description":"","width":960,"height":700,"margin":0.05,"visibility":"all","published_at":"2024-07-02T15:06:17.623Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/5e6b4785d50cfb3cf3fd42432480cfa6/thumb.jpg?1719932874","view_count":0,"user":{"id":2683700,"username":"zohairulhasan","name":"Zohair Ul Hasan","description":null,"thumbnail_url":"https://graph.facebook.com/v5.0/3962896787259490/picture?access_token=EAACEyfWCFtgBOZBY9ybVEqQZAinKYNsZBuLHhW4KCxcbsyU2v4VwWCgnhK2AFGj9698akoSuok5l7ZBJoszQ0ZCec1JJbukq3nXG0ZCte3j4yLls9fZCoKZA218tLgQKqgpzzmaUoVliqhauOhD5gpZCjwZBeeTufrJycNXC7cOkAIkufXBJqu0XnEwoTFELVZAHFxh2ttSxVXNHuDR7p0aQv5VrmGBZAfaGDWZCDEOVWky8apLQiQXjdZAr2r","account_type":"lite","team_id":null,"settings":{"id":57289514,"present_controls":false,"present_upsizing":true,"present_pointer":true,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"none","transition":"fade","theme_id":null,"theme_font":"helvetica","theme_color":"black-mint","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":48,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1719947885385,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: true,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "fade",
+				backgroundTransition: "none",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>
